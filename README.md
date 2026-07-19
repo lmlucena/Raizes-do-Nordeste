@@ -2,7 +2,6 @@
 
 Sistema de pedidos online para uma rede de lanchonetes nordestinas, desenvolvido como projeto final do curso de Análise e Desenvolvimento de Sistemas na UNINTER.
 
-![Preview](https://raizes-do-nordeste-pink.vercel.app/)
 
 ## 🔗 Links
 

@@ -1,16 +1,70 @@
-# React + Vite
+# 🌟 Raízes do Nordeste
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Sistema de pedidos online para uma rede de lanchonetes nordestinas, desenvolvido como projeto final do curso de Análise e Desenvolvimento de Sistemas na UNINTER.
 
-Currently, two official plugins are available:
+![Preview](https://raizes-do-nordeste-pink.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🔗 Links
 
-## React Compiler
+- **Site publicado:** https://raizes-do-nordeste-pink.vercel.app/
+- **Repositório:** https://github.com/lmlucena/Raizes-do-Nordeste
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📋 Sobre o projeto
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+A Raízes do Nordeste é uma rede fictícia de lanchonetes nordestinas com unidades em diferentes cidades do Brasil. O sistema foi projetado para oferecer uma experiência de pedidos multicanal — pelo site, pelo celular ou pelo totem de autoatendimento dentro das lojas.
+
+O foco do projeto está na experiência do usuário, na clareza dos fluxos e na conformidade com a LGPD.
+
+---
+
+## ✨ Funcionalidades
+
+- 🏪 Seleção de unidade da rede
+- 🔐 Login e cadastro com consentimento LGPD
+- 🍽️ Cardápio com filtros por categoria e busca em tempo real
+- 🛒 Carrinho com controle de quantidade
+- 💳 Simulação de pagamento via gateway externo (PIX, crédito, débito)
+- 📦 Acompanhamento de status do pedido em tempo real
+- ⭐ Programa de fidelidade com pontos e resgates
+- 🖥️ Modo totem para autoatendimento nas lojas
+
+---
+
+## 🚀 Tecnologias
+
+- [React 18](https://react.dev)
+- [Tailwind CSS 3](https://tailwindcss.com)
+- [Vite](https://vitejs.dev)
+- [React Router DOM](https://reactrouter.com)
+- Context API para gerenciamento de estado global
+- Dados mockados em JavaScript
+
+
+---
+
+## 📱 Páginas do sistema
+
+| Rota | Descrição |
+|------|-----------|
+| `/` | Home — seleção de unidade |
+| `/login` | Login |
+| `/cadastro` | Cadastro com etapas LGPD |
+| `/cardapio` | Cardápio com filtros |
+| `/carrinho` | Carrinho de compras |
+| `/pagamento` | Pagamento simulado |
+| `/status` | Status do pedido |
+| `/fidelidade` | Programa de fidelidade |
+| `/totem` | Modo totem (autoatendimento) |
+
+---
+
+## 🔒 LGPD
+
+O sistema foi desenvolvido com atenção à Lei Geral de Proteção de Dados (Lei nº 13.709/2018):
+
+- Consentimento explícito no cadastro
+- Checkboxes opcionais para campanhas e comunicações
+- Nenhum dado sensível armazenado no front-end
+- Aviso de LGPD na página de fidelidade

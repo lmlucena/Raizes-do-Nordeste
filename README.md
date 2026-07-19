@@ -33,8 +33,8 @@ O foco do projeto está na experiência do usuário, na clareza dos fluxos e na 
 
 ## 🚀 Tecnologias
 
-- [React 18](https://react.dev)
-- [Tailwind CSS 3](https://tailwindcss.com)
+- [React](https://react.dev)
+- [Tailwind CSS](https://tailwindcss.com)
 - [Vite](https://vitejs.dev)
 - [React Router DOM](https://reactrouter.com)
 - Context API para gerenciamento de estado global
